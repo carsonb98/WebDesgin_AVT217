@@ -1,8 +1,8 @@
 selector {
   property: value;
 }
-.intro {
-  background-color: lightblue;
+.colorfont {
+  color: lightblue;
 }
 body {
   font-family: 'Oswald', sans-serif;
