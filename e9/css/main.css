@@ -71,3 +71,12 @@
   opacity: .80;
   float: left;
 }
+#p5.shape1{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border: 60px dashed silver;
+  margin: -15px;
+  opacity: .80;
+  float: left;
+}
