@@ -25,58 +25,70 @@
   opacity: .90;
   float: left;
 }
- #p3.shape1{
+ #p3  .triangle{
    width: 100px;
-   height: 100px;
-   background-color: green;
-   border: 100px solid brown;
-   margin: -15px;
-   opacity: .90;
-   float: right;
+	height: 100px;
+  background-color: hotpink;
+	border-left: 25px solid bluen;
+	border-right: 25px solid green;
+	border-bottom: 50px solid red;
+  float: left;
  }
-.shape2{
+.cirlce{
    width: 100px;
    height: 100px;
-   background-color: transparent;
-   border: 50px solid blue;
+   background-color: orange;
+   border: 10px solid blue;
    margin: -15px;
    opacity: .90;
    float: left;
    border-radius: 50%
 }
-.shape3{
-  width: 100px;
-  height: 100px;
-  background-color: teal;
-  border: 20px dashed black;
-  margin: -15px;
-  opacity: .90;
-  float: left;
+#p4 .trapezoid{
+border-bottom: 200px solid orangered;
+border-left: 200px solid transparent;
+border-right: 200px solid transparent;
+height:200;
+width: 300px;
+float: left;
+margin: -15px;
+opacity: .90;
 }
-#p4.shape1{
-  width: 100px;
-  height: 100px;
-  background-color: brown;
-  border: 60px solid black
-  margin: -15px
-  opacity: .80;
-  float: left;
-}
-.shape2{
-  width: 100px;
-  height: 100px;
+  .square{
+  width: 200px;
+  height: 200px;
   background-color: orange;
-  border: 60px solid yellow;
+  border: 0px solid blue;
   margin: -15px;
   opacity: .80;
-  float: left;
+  float: right;
+  background-image: linear-gradient(to right, yellow , green);
 }
-#p5.shape1{
+.bcirlce{
+     width: 600px;
+     height: 600px;
+     background-color: black;
+     border: 10px solid purple;
+     margin: -15x;
+     opacity: .90;
+     float: left;
+     border-radius: 50%
+   }
+#p5 .rectangle{
   width: 100px;
-  height: 100px;
-  background-color: brown;
-  border: 60px dashed silver;
-  margin: -15px;
+  height: 200px;
+  background-color: #04db00;
+  border: 20px solid #36ff4a;
+  margin: -50px;
   opacity: .80;
-  float: left;
+  float: right;
+}
+.oval{
+height: 150px;
+width: 300px;
+background-color: #46246e;
+border-radius: 50%;
+opacity: .90;
+margin: -50px;
+float: right;
 }
