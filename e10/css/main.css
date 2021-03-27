@@ -19,3 +19,26 @@ body {
   margin: auto;
   margin-top: auto;
 }
+
+.col {
+  width: 100px;
+  height: 300px;
+  background: pink;
+  display: flow-root;
+}
+.col1 {
+  width: 100px;
+  height: 300px;
+  background: pink;
+  float: left;
+  margin: auto;
+  display: flow-root;
+}
+.col2 {
+  width: 100px;
+  height: 300px;
+  background: pink;
+  float: left;
+  margin: auto;
+  display: flow-root;
+}
