@@ -19,6 +19,11 @@ body {
   margin: auto;
   margin-top: auto;
 }
+.layout {
+  width: 800px;
+  display: flow-root;
+
+}
 
 .row1 {
   width: 600px;
@@ -43,26 +48,61 @@ body {
     margin-bottom: 20px;
   }
 .col {
-  width: 100px;
+  width: 150px;
   height: 300px;
   background-color: pink;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   float: left;
 }
 .col2 {
-  width: 100px;
+  width: 150px;
   height: 300px;
   background-color: pink;
-  margin-left:40px;
-  margin-right: 40px;
+  margin-left:20px;
+  margin-right: 20px;
   float: left;
 }
 .col3 {
-  width: 100px;
+  width: 150px;
   height: 300px;
   background-color: pink;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   float: left;
+}
+.firstset{
+  width: 500px
+  display:flow-root;
+}
+.rec1 {
+  background-color: red;
+  width: 700px;
+  height: 100px;
+  margin-bottom: auto;
+}
+.sq1 {
+  background-color: red;
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rec2 {
+  width: 600px;
+  height: 100px;
+  background-color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.smallrec {
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
