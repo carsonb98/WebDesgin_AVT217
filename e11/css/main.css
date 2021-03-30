@@ -1,0 +1,134 @@
+body{
+background-color: black;
+}
+.eye1{
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  left: 60px;
+}
+.pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-bottom: 60px solid yellow;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      position: absolute ;
+      top: 0px;
+      bottom: 0px;
+    }
+.circle {
+width: 50px;
+height: 50px;
+background: white;
+border-radius: 50%;
+float: right;
+margin-right: 20px;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+.bluecircle{
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border-radius: 50%;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.lane1{
+  width: auto;
+  border: 5px solid white;
+}
+body{ background: #000; }
+
+.blinky{ background-color: red;}
+.clyde{ background-color: orange;}
+.inky{ background-color: cyan;}
+.pinky{ background-color: pink;}
+
+.ghost{
+  border-radius: 100% 100% 0 0;
+  display: inline-block;
+  height: 160px;
+  margin: 20px;
+  position: relative;
+  width: 120px;
+}
+
+.eyes{
+  height: 60px;
+  left: 50%;
+  margin-left: -45px;
+  position: absolute;
+  width: 90px;
+  top: 50px;
+}
+
+.eye{
+  background: #fff;
+  border-radius: 100%;
+  height: 60px;
+  width: 30px;
+}
+
+.iris{
+  background: blue;
+  border-radius: 100%;
+  height: 40px;
+  position: absolute;
+  width: 20px;
+  top: 10px;
+}
+
+.leftEye{ float: left; }
+.leftEye .iris{ left: 5px; }
+
+.rightEye{float: right; }
+.rightEye .iris{ right: 5px; }
+
+.ghostTail{
+  background-repeat: repeat-x;
+  bottom: -20px;
+  height: 20px;
+  position: absolute;
+  width: 120px;
+}
+
+.blinky .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, red 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, red 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.clyde .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, orange 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, orange 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.inky .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, cyan 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, cyan 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.pinky .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, pink 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, pink 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
