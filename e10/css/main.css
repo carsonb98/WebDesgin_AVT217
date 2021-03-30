@@ -26,51 +26,36 @@ body {
 }
 
 .row1 {
-  width: 600px;
+  width: 700px;
   height: 100px;
   background-color: red;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 
 }
-.row2{
-  width: 600px;
-  height: 50px;
+.row2 {
+  width: 700px;
+  height: 25px;
   background-color: red;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   }
   .row3 {
-    width: 600px;
+    width: 700px;
     height: 100px;
     background-color: red;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 .col {
-  width: 150px;
+  width: 200px;
   height: 300px;
   background-color: pink;
   margin-left: 20px;
   margin-right: 20px;
   float: left;
 }
-.col2 {
-  width: 150px;
-  height: 300px;
-  background-color: pink;
-  margin-left:20px;
-  margin-right: 20px;
-  float: left;
-}
-.col3 {
-  width: 150px;
-  height: 300px;
-  background-color: pink;
-  margin-left: 20px;
-  margin-right: 20px;
-  float: left;
-}
+
 .firstset{
   width: 500px
   display:flow-root;
