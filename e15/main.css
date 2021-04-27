@@ -1,1 +1,4 @@
-img 100px
+img{
+  width: auto;
+  height: auto;
+}
